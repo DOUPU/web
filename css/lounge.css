@@ -1,0 +1,168 @@
+body{
+	background-color:	gray;				/*背景*/
+	font-family:	Georgia,"Times New Roman",Times,serif;	/*字体系列*/
+	font-size:		sma11;				/*字体大小*/
+	margin:		5px;				/*外边距*/
+}
+#allcontent{
+	DDwidth:		1000px;	/*DD为略过此样式，取消定义宽度，即变为自适应宽度，下同*/
+	padding:	5px 0px 5px 0px;
+	
+
+	background-color:	#b5a789;
+	
+	/*凝胶布局*/
+	margin-left:	auto;	/*外边距-左边：自动*/
+	margin-right:	auto;	/*外边距-右边：自动     左右同时设置自动居中*/
+	
+}
+
+#header{
+	
+	background-color:	#675c47;
+	margin:		10px 15px 0px 15px;
+	height:		108px;		/*背景块整体高*/
+	border-radius:	15px;		/*圆角*/
+}
+#geB{	
+	float:	right;	
+}
+
+
+
+#drinks{
+	display:		table-cell;		/*设置此为单元格元素*/
+
+
+	background:	#efe5d0 url(../images/background.gif) top left;	/*设置背景色和背景图片*/
+	font-size:		105%;					
+	padding:		15px;					/*内边距*/
+
+	vertical-align:	top;
+	border-radius:	15px;
+	DDwidth:		130px;		/*DD为略过此样式，取消定义宽度，即变为自适应宽度，下同*/
+}
+
+#main{
+	display:		table-cell;		/*设置此为单元格元素*/
+
+	background:	#efe5d0 url(../images/background.gif) top left;	/*设置背景色和背景图片*/
+	font-size:		105%;					
+	padding:		15px;					/*内边距*/
+
+	vertical-align:	top;
+	border-radius:	15px;
+	DDwidth:		600px;		/*DD为略过此样式，取消定义宽度，即变为自适应宽度*/
+}
+#sidebar{
+	display:		table-cell;		/*设置此为单元格元素，即行中元素*/
+
+	background:	#efe5d0 url(../images/background.gif) bottom right;	/*设置背景色和背景图片*/
+	font-size:		105%;					
+	padding:		15px;					/*内边距*/
+
+	vertical-align:	top;
+
+	border-radius:	15px;	
+	
+}
+#footer{
+	background-color:	#675c47;
+	color:		#efe5d0;
+	text-align:		center;		/*文本居中对齐*/
+	padding:		15px;		/*内边距*/
+	margin:		-5px 15px 10px 15px;
+	font-size:		90%;
+	border-radius:	15px;		/*圆角*/
+}
+
+h1{
+	font-size:		120%;
+	color:		#954b4b;
+}
+
+.beanheading{
+	text-align:		center;		/*文本居中对齐*/
+	line-height:	1.8em;		/*行高*/
+}
+.slogan{
+	color:		#954b4b;
+}
+
+a:link{		/*未访问链接样式*/
+	color:		#b76666;
+	text-decoration:	none;
+	border-bottom:	thin dotted #b76666;	/*下边框：虚线*/
+}
+a:visited{		/*已访问链接样式*/
+	color:		#675c47;
+	text-decoration:	none;
+	border-bottom:	thin dotted #675c47;		
+}
+
+.rs{		/*这是压缩小图标*/
+	float:		left;		/*浮动：左边*/
+	margin:		0px 10px 10px 0px;	/*外边距*/
+}
+
+
+
+#fd{
+	position:	absolute;		/*绝对定位之浮动标签*/
+	top:	120px;
+	right:	40%;
+}
+
+		/*css表格显示*/
+div#tableContainer{
+	display:	table;		/*表示其中元素按照表格摆放*/
+	border-spacing:	10px;	/*为其中元素单元格增加间距10px*/
+	margin-left:	-5px;
+	margin-right:	-5px;
+}
+div#tableRow{
+	display:	table-row;		/*表格第一行*/
+}
+
+		/*固定定位之优惠券*/
+#coupon{			/*固定定位之优惠券*/
+	position:	fixed;	/*固定定位*/
+	top:	300px;
+	left:	-210px;
+}
+
+#coupon:hover{		/*优惠券鼠标悬浮样式*/
+	position:	fixed;	/*固定定位*/
+	top:	300px;
+	left:	-7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

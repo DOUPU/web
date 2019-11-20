@@ -1,0 +1,61 @@
+﻿body{
+	background-color:	gray;	
+
+}
+
+p{
+	color:	rgb(171,171,171);		/*较浅灰色*/
+}
+div#bg,#wai{
+	display:	table;
+	border-spacing:	10px;
+	
+}
+
+div#hanA,#hanB,#hanC,#hanD{
+	display:	table-row;
+	background-color:	olive;
+
+
+}
+
+.dy{
+	display:		table-cell;		/*设置此为单元格元素*/
+
+}
+.wi{
+	display:		table-cell;		/*设置此为单元格元素*/
+	margin:		0px 0px -5px 0px;
+
+
+	
+
+	
+	
+	border-color:	gainsboro;	/*淡灰色*/
+}
+
+#wai a:link{
+	border-style:	outset;		/*边框样式：外凸*/
+	border-width:	8px;
+	
+}
+
+
+#wai a:hover{
+	border-style:	inset;
+	border-width:	8px;
+}
+
+
+.ee a:link{
+	border-style:	inset;		/*边框样式：外凸*/
+	border-width:	8px;
+}
+
+
+
+
+
+
+
